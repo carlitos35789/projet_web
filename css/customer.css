@@ -1,0 +1,14 @@
+#logo {
+    height: 250px;
+    width: 250px;
+}
+
+body {
+    background-color: black;
+}
+
+.text-center {
+    color: blue;
+    font-size: 5em;
+}
+
