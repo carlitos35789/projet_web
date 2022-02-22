@@ -3,6 +3,7 @@
 SET NAMES utf8;
 SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
+USE vanguardistes;
 
 DROP TABLE IF EXISTS `client`;
 CREATE TABLE `client` (
