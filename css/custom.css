@@ -1,0 +1,117 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+}
+
+header {
+    background-color: black;
+}
+
+.menu {
+    float: left;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.connexion {
+    float: right;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    font-size: 70px;
+    color: black;
+    text-shadow: 1px 1px 10px black;
+}
+
+#button-banner{
+    font-size: 25px;
+}
+
+
+#carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.text-carousel {
+    position: absolute;
+    top: 143%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 10px 10px 20px blue;
+}
+
+.text2-carousel {
+    position: absolute;
+    top: 212%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 10px 10px 20px blue;
+}
+
+.step {
+    font-size: 40px;
+    color: white;
+    text-shadow: 10px 10px 20px blue;
+}
+
+.step #step1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 225%;
+}
+
+.step #step2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 235%;
+}
+
+.step #step3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 245%;
+}
