@@ -1,4 +1,7 @@
-<?php require('header.php'); ?>
+<?php 
+session_start(); 
+require('header.php'); 
+?>
     <section class="container-fluid banner">
         <div class="ban">
             <img src="images/image_tel2.jpg" alt="banniere"/>

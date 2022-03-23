@@ -50,7 +50,7 @@ header {
 .inner-banner h1 {
     font-size: 70px;
     color: black;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 10px white;
 }
 
 #button-banner{

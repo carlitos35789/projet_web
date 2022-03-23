@@ -34,8 +34,13 @@
                     <a href="exp_et_re.php" type="button" class="btn btn-outline-primary">Expédition Et Retour</a>
                 </nav>
                 <nav class="connexion">
-                    <a href="connexion.php" type="button" class="btn btn-outline-primary">Connexion</a>
-                    <a href="inscription.php" type="button" class="btn btn-outline-primary">Inscription</a>
+                    <?php 
+                    if(isset($_SESSION['utilisateur'])){
+                        echo'<a href="Login/deconnexion.php" class = "btn btn-outline-primary">Déconnexion</a> <br>';
+                    }
+                    else{
+                        echo'<a href="Login/connexion.php" type="button" class="btn btn-outline-primary">Connexion</a>';
+                    } ?>
                 </nav>
             </div>
         </header>
