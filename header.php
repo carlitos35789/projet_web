@@ -20,11 +20,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous">
         </script>
+    </head>
     <div id="particles-js" class="background"></div>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <script src="js/particles.min.js"></script>
-    </head>
 
     <body>
         <header>
