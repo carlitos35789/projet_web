@@ -1,7 +1,7 @@
 
 <?php
     try{
-        $mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', '');
+        $mysqli = new PDO('mariadb:host=localhost;dbname=telephone;charset=utf8', 'root', '');
     }catch(Exception $e){
         die('Erreur'.$e->getMessage());
     }
