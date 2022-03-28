@@ -115,3 +115,59 @@ header {
     text-align: center;
     top: 245%;
 }
+
+
+/* tete de page */
+
+section.top-page {
+    margin: 100px;
+    background-size: cover;
+}
+
+.big-title {
+    color: blue;
+    font-size: 40px;
+}
+
+/*menu de navigation */
+
+
+.border {
+    border-style: solid;
+    margin-right: 10px;
+    margin-left: 320px;
+    color: blue;
+}
+
+div.div-inline {
+    display: inline-block; 
+    margin-left: 280px;
+    margin-top: 0px;
+    margin-right: 150px;
+    align-content: center;
+    color: blue;
+  }
+  
+  h4.h4-inline {
+    display: inline-block; 
+    color: blue;
+  }
+
+  div.div-inline-2 {
+    display: inline-block; 
+    margin-left: 320px;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-bottom: 300px;
+    align-content: center;
+    color: blue;
+  }
+  
+  h4.h4-inline-2 {
+    display: inline-block; 
+    color: blue;
+  }
+
+  .background {
+      background-color: #000000;
+  }
