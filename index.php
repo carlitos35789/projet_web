@@ -82,15 +82,15 @@ require('header.php');
 <div class="step">
     <a id="step1">
         Etape 1: Remplissez le formulaire afin d'estimer votre mobile
-        <img src="images/formulaire.png" alt="" width="100px" height="100px">
+        <img src="Images/formulaire.png" alt="" width="100px" height="100px">
     </a>
     <a id="step2">
         Etape 2: Envoyez nous votre télephone
-        <img src="images/courrier.png" alt="" width="100px" height="100px">
+        <img src="Images/courrier.png" alt="" width="100px" height="100px">
     </a>
     <a id="step3">
         Etape 3: Paiements dans un délai de 4 jours maximum
-        <img src="images/pay.png" alt="" width="100px" height="100px">
+        <img src="Images/pay.png" alt="" width="100px" height="100px">
     </a>
 </div>
 <div id="particles-js" class="background"></div>

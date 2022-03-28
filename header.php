@@ -25,7 +25,7 @@
         <header>
             <div class="navbar">
                 <nav class="menu">
-                    <img id="logo"src="images/THe.png" alt="" width="200px" height="100px">
+                    <img id="logo"src="Images/THe.png" alt="" width="200px" height="100px">
                     <a href="index.php" type="button" class="btn btn-primary btn-lg">Accueil</a>
                     <a href="apropos.php" type="button" class="btn btn-outline-primary">A Propos</a>
                     <a href="contactez.php" type="button" class="btn btn-outline-primary">Contactez Nous</a>
