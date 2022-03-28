@@ -4,7 +4,7 @@ require('header.php');
 ?>
     <section class="container-fluid banner">
         <div class="ban">
-            <img src="images/image_tel2.jpg" alt="banniere"/>
+            <img src="Images/image_tel2.jpg" alt="banniere"/>
         </div>
         <div class="inner-banner">
             <h1>Soyez éco-responsable, pensez à nous !</h1>
@@ -29,32 +29,32 @@ require('header.php');
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="images/iphone.jpg"
+                <img src="Images/iphone.jpg"
                     class="d-block">
             </div>
 
             <div class="carousel-item">
-                <img src="images/samsung.jpg"
+                <img src="Images/samsung.jpg"
                     class="d-block">
             </div>
 
             <div class="carousel-item">
-                <img src="images/huawei_tel.png"
+                <img src="Images/huawei_tel.png"
                 class="d-block">
             </div>
 
             <div class="carousel-item">
-                <img src="images/lg.jpg"
+                <img src="Images/lg.jpg"
                     class="d-block">
             </div>
 
             <div class="carousel-item">
-                <img src="images/motorola.jpg"
+                <img src="Images/motorola.jpg"
                 class="d-block">
             </div>
 
             <div class="carousel-item">
-                <img src="images/oppo.jpg"
+                <img src="Images/oppo.jpg"
                     class="d-block">
             </div>
         </div>
