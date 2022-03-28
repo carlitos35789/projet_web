@@ -92,10 +92,10 @@ require('header.php');
         Etape 3: Paiements dans un délai de 4 jours maximum
         <img src="images/pay.png" alt="" width="100px" height="100px">
     </a>
-    <div id="particles-js" class="background"></div>
-        <script src="js/particles.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/particles.min.js"></script>
 </div>
+<div id="particles-js" class="background"></div>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/particles.min.js"></script>
 </body>
 </html>
