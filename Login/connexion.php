@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', '');
+$mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', 'root');
 foreach($mysqli->query('SELECT * from telephone') as $row) {
     print_r($row);
 }
