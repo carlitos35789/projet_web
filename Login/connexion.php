@@ -1,7 +1,10 @@
 <?php
 
 session_start();
-    require_once 'connexion_bdd.php';
+$mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', '');
+foreach($mysqli->query('SELECT * from telephone') as $row) {
+    print_r($row);
+}
 
     if(isset($_POST['email']) && isset($_POST['password'])){
         $email = htmlspecialchars($_POST['email']);

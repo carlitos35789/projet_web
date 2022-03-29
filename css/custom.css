@@ -125,6 +125,8 @@ section.top-page {
 }
 
 .big-title {
+    position: absolute;
+    top: 15%;
     color: blue;
     font-size: 40px;
 }
@@ -140,6 +142,8 @@ section.top-page {
 }
 
 div.div-inline {
+    position: absolute;
+    top: 30%;
     display: inline-block; 
     margin-left: 280px;
     margin-top: 0px;
@@ -149,11 +153,15 @@ div.div-inline {
   }
   
   h4.h4-inline {
+    position: absolute;
+    top: 30%;
     display: inline-block; 
     color: blue;
   }
 
   div.div-inline-2 {
+    position: absolute;
+    top: 40%;
     display: inline-block; 
     margin-left: 320px;
     margin-top: 0px;
@@ -164,6 +172,8 @@ div.div-inline {
   }
   
   h4.h4-inline-2 {
+    position: absolute;
+    top: 40%;
     display: inline-block; 
     color: blue;
   }

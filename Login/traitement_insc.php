@@ -1,6 +1,9 @@
 <?php
 
-require_once 'connexion_bdd.php';
+$mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', '');
+    foreach($mysqli->query('SELECT * from telephone') as $row) {
+        print_r($row);
+    }
 
 if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['password_retype'])){
 
@@ -9,7 +12,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) 
     $password = htmlspecialchars($_POST['password']);
     $password_retype = htmlspecialchars($_POST['password_retype']);
 
-    $control = $mysqli->prepare('SELECT name, email, password FROM utilisateur WHERE email = ?');
+    $control = $mysqli->prepare('SELECT name, email, password FROM utilisateur WHERE email ='.$email);
     $control->execute(array($email));
     $data = $control->fetch();
     $row = $control->rowCount();
@@ -38,3 +41,4 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) 
         }else header('Location:inscription.php?registration_err=name_length');
     }else header('Location:inscription.php?registration_err=already');
 }
+?>
