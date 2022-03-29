@@ -1,6 +1,6 @@
 <?php
 try {
-        $mysqli = new PDO('mariadb:host=localhost;dbname=telephone;charset=utf8', $user, $mdp);
+        $mysqli = mysqli_connect('mariadb:host=localhost;dbname=telephone;charset=utf8', 'root', '');
     foreach($mysqli->query('SELECT * from telephone') as $row) {
         print_r($row);
     }
