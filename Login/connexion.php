@@ -1,10 +1,6 @@
 <?php
-
+require_once 'connexion_bdd.php';
 session_start();
-$mysqli = new PDO('mariadb:host=localhost;dbname=telephone;charset=utf8', 'root', 'vanguardistes');
-foreach($mysqli->query('SELECT * from telephone') as $row) {
-    print_r($row);
-}
 
     if(isset($_POST['email']) && isset($_POST['password'])){
         $email = htmlspecialchars($_POST['email']);

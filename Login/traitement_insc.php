@@ -1,9 +1,7 @@
 <?php
 
-$mysqli = new PDO('mariadb:host=localhost;dbname=telephone;charset=utf8', 'root', 'vanguardistes');
-    foreach($mysqli->query('SELECT * from telephone') as $row) {
-        print_r($row);
-    }
+require_once 'connexion_bdd.php';
+session_start();
 
 if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['password_retype'])){
 
@@ -12,7 +10,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) 
     $password = htmlspecialchars($_POST['password']);
     $password_retype = htmlspecialchars($_POST['password_retype']);
 
-    $control = $mysqli->prepare('SELECT name, email, password FROM utilisateur WHERE email ='.$email);
+    $control = $mysqli->prepare('SELECT name, email, password FROM utilisateur WHERE email =?');
     $control->execute(array($email));
     $data = $control->fetch();
     $row = $control->rowCount();
