@@ -24,6 +24,16 @@ session_start();
         <div class="l2"></div>
     </div>
 
+    <nav class="connexion">
+        <?php 
+            if(isset($_SESSION['utilisateur'])){
+            echo'<a href="Login/deconnexion.php" class = "btn btn-outline-primary">Déconnexion</a> <br>';
+            }
+            else{
+            echo'<a href="Login/connexion.php" type="button" class="btn btn-outline-primary">Connexion</a>';
+            } ?>
+    </nav>
+
     <div class="container-first">
         <h1><span>Soyez </span><span>Eco-résponsable </span><span>Pensez </span><span>à </span><span style="left:38%">Nous </span></h1>
         <div class="container-btns">

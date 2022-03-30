@@ -97,17 +97,6 @@ h1 span {
     height: 230px;
     cursor: pointer;
 }
-.medias {
-    list-style-type: none;
-    position: absolute;
-    right: 3.3%;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .background {
     background-color: #000000;
