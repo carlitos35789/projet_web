@@ -1,0 +1,150 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container-first {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #3C68FF;
+    font-family: Abril fatface, sans-serif;
+}
+h1 span {
+    position: relative;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+}
+.btn-first {
+    border: 2px solid blue;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 55px;
+}
+
+.btn-first:nth-child(2){
+    margin-right: 55px;
+}
+
+.btn-first:nth-child(3){
+    margin-right: 55px;
+}
+.btn-first:nth-child(4){
+    margin-right: 55px;
+}
+.btn-first:nth-child(5){
+    margin-right: 55px;
+}
+.btn-first:nth-child(6){
+    font-size: 28px;
+}
+
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: blue;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #3C68FF;;
+    border-radius: 5px;
+}
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #3C68FF;;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background {
+    background-color: #000000;
+    height: 1500px;
+}
+
+.step {
+    font-size: 40px;
+    color: #3C68FF;;
+}
+
+.step #step0 {
+    font-size: 90px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 95%;
+}
+
+
+.step #step1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 110%;
+}
+
+.step #step2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 120%;
+}
+
+.step #step3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 130%;
+}

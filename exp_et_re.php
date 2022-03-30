@@ -3,7 +3,6 @@ session_start();
 require('header.php');
 ?>
 
-<body>
     <section class="top-page">
         <div class="page">
             <h3 class="big-title">Expédition et retour <br> </h3> 
@@ -13,6 +12,7 @@ require('header.php');
             
             <h4 class="h4-inline-2">Politique de retour : </h4><div class="div-inline-2"> A partir du moment où votre mobile aura été étudié nous mettrons un prix dessus et vous le communiquerons. Si ce prix ne vous convient pas il vous suffira de répondre au mail que nous vous enverrons et votre produit vous sera renvoyé sous un délai de 1 semaine maximum.
                 </div>
-            </div>    
-        </section>
+        </div>    
+    </section>
+        <img id="image-fast" src="Images/rapide.png"/>
 </html>

@@ -117,8 +117,6 @@ header {
 }
 
 
-/* tete de page */
-
 section.top-page {
     margin: 100px;
     background-size: cover;
@@ -131,9 +129,6 @@ section.top-page {
     font-size: 40px;
 }
 
-/*menu de navigation */
-
-
 .border {
     border-style: solid;
     margin-right: 10px;
@@ -145,21 +140,21 @@ div.div-inline {
     position: absolute;
     top: 30%;
     display: inline-block; 
-    margin-left: 280px;
+    margin-left: 320px;
     margin-top: 0px;
     margin-right: 150px;
     align-content: center;
     color: blue;
-  }
+}
   
-  h4.h4-inline {
+h4.h4-inline {
     position: absolute;
     top: 30%;
     display: inline-block; 
     color: blue;
-  }
+}
 
-  div.div-inline-2 {
+div.div-inline-2 {
     position: absolute;
     top: 40%;
     display: inline-block; 
@@ -169,15 +164,49 @@ div.div-inline {
     margin-bottom: 300px;
     align-content: center;
     color: blue;
-  }
+}
   
-  h4.h4-inline-2 {
+h4.h4-inline-2 {
     position: absolute;
     top: 40%;
     display: inline-block; 
     color: blue;
-  }
+}
 
-  .background {
-      background-color: #000000;
-  }
+.background {
+    background-color: #000000;
+}
+
+#image-fast {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    height: 50%S;
+}
+
+.img-thumbnail{
+    position: absolute;
+    height: 70%;
+    width: 62%;
+    left: 18%;
+    top: 25%;
+}
+
+#text-apropos {
+    color: blue;
+    position: absolute;
+    top: 98%;
+    left: 25%;
+    font-size: 38px;
+    background-color: #007BFF;
+}
+
+#teams {
+    position: absolute;
+    top: 140%;
+    color: blue;
+}
+
+.card-text {
+    font-size: 15px;
+}

@@ -1,101 +1,65 @@
 <?php 
 session_start(); 
-require('header.php'); 
 ?>
-    <section class="container-fluid banner">
-        <div class="ban">
-            <img src="Images/image_tel2.jpg" alt="banniere"/>
-        </div>
-        <div class="inner-banner">
-            <h1>Soyez éco-responsable, pensez à nous !</h1>
-            <button type="button" class="btn btn-primary btn-lg" id="button-banner">Vendez maintenant !</button>
-        </div>
-    </section>
-
-    <h1 class="text-carousel">Nous récupérons vos anciens mobiles ! </h1>
-
-    <div id="carouselExemple" class="carousel slide" data-ride="carousel" data-interval="5000">
-
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExemple" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExemple" data-slide-to="1"></li>
-            <li data-target="#carouselExemple" data-slide-to="2"></li>
-            <li data-target="#carouselExemple" data-slide-to="3"></li>
-            <li data-target="#carouselExemple" data-slide-to="4"></li>
-            <li data-target="#carouselExemple" data-slide-to="5"></li>
-        </ol>
-
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img src="Images/iphone.jpg"
-                    class="d-block">
-            </div>
-
-            <div class="carousel-item">
-                <img src="Images/samsung.jpg"
-                    class="d-block">
-            </div>
-
-            <div class="carousel-item">
-                <img src="Images/huawei_tel.png"
-                class="d-block">
-            </div>
-
-            <div class="carousel-item">
-                <img src="Images/lg.jpg"
-                    class="d-block">
-            </div>
-
-            <div class="carousel-item">
-                <img src="Images/motorola.jpg"
-                class="d-block">
-            </div>
-
-            <div class="carousel-item">
-                <img src="Images/oppo.jpg"
-                    class="d-block">
-            </div>
-        </div>
-
-        <a href="#carouselExemple" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="ture"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a href="#carouselExemple" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-
+<!DOCTYPE html>
+<html lang="fe">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vanguardistes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js" class="background"></div>
+    <script src="js-particles/particles.js"></script>
+    <script src="js-particles/app.js"></script>
+    <script src="js-particles/particles.min.js"></script>
+    
+    <div class="lignes">
+        <div class="l1"></div>
+        <div class="l2"></div>
     </div>
-    <script>
-        $('.carousel').carousel({
 
-            pause: "null"
+    <div class="container-first">
+        <h1><span>Soyez </span><span>Eco-résponsable </span><span>Pensez </span><span>à </span><span style="left:38%">Nous </span></h1>
+        <div class="container-btns">
+            <a href="index.php" class="btn-first b1"> Accueil </a>
+            <a href="" class="btn-first b2"> Vendez Maintenant </a>
+            <a href="apropos.php" class="btn-first b3"> A Propos</a>
+            <a href="contacte.php" class="btn-first b4"> Contactez Nous</a>
+            <a href="avis.php" class="btn-first b5"> Avis</a>
+            <a href="exp_et_re.php" class="btn-first b6"> Expédition et Retour</a>
+        </div>
+    </div>
 
-        })
-    </script>
+    <img src="Images/THe.png" class="logo">
 
-<h1 class="text2-carousel">En 3 étapes : </h1>
+    
+    <div class="step">
+        <a id="step0">
+             Nous récupérons vos anciens mobiles !
+        </a>
+        <a id="step1">
+            Etape 1: Remplissez le formulaire afin d'estimer votre mobile
+            <img src="Images/formulaire.png" alt="" width="100px" height="100px">
+        </a>
+        <a id="step2">
+            Etape 2: Envoyez nous votre télephone
+            <img src="Images/courrier.png" alt="" width="100px" height="100px">
+        </a>
+        <a id="step3">
+            Etape 3: Paiements dans un délai de 4 jours maximum
+            <img src="Images/pay.png" alt="" width="100px" height="100px">
+        </a>
+    </div>
+    
 
-<div class="step">
-    <a id="step1">
-        Etape 1: Remplissez le formulaire afin d'estimer votre mobile
-        <img src="Images/formulaire.png" alt="" width="100px" height="100px">
-    </a>
-    <a id="step2">
-        Etape 2: Envoyez nous votre télephone
-        <img src="Images/courrier.png" alt="" width="100px" height="100px">
-    </a>
-    <a id="step3">
-        Etape 3: Paiements dans un délai de 4 jours maximum
-        <img src="Images/pay.png" alt="" width="100px" height="100px">
-    </a>
-</div>
-<div id="particles-js" class="background"></div>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/particles.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="animation.js"></script>
 </body>
 </html>
