@@ -1,0 +1,54 @@
+main{
+    width: 40%;
+    border: 5px solid #007BFF;
+    padding: 15px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+    
+}
+
+input{
+    display: block;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #007BFF;
+    border-radius: 10px;
+}
+
+.page{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-num{
+    border: 5px solid #007BFF;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.active{
+    color: white;
+    background-color: #007BFF;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    border: 5px solid #007BFF;
+    width: 30%;
+}

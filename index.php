@@ -26,19 +26,19 @@ session_start();
 
     <nav class="connexion">
         <?php 
-            if(isset($_SESSION['utilisateur'])){
+        if(isset($_SESSION['utilisateur'])){
             echo'<a href="Login/deconnexion.php" class = "btn btn-outline-primary">Déconnexion</a> <br>';
-            }
-            else{
+        }
+        else{
             echo'<a href="Login/connexion.php" type="button" class="btn btn-outline-primary">Connexion</a>';
-            } ?>
+        } ?>
     </nav>
 
     <div class="container-first">
         <h1><span>Soyez </span><span>Eco-résponsable </span><span>Pensez </span><span>à </span><span style="left:38%">Nous </span></h1>
         <div class="container-btns">
             <a href="index.php" class="btn-first b1"> Accueil </a>
-            <a href="" class="btn-first b2"> Vendez Maintenant </a>
+            <a href="vendez_mtn.php" class="btn-first b2"> Vendez Maintenant </a>
             <a href="apropos.php" class="btn-first b3"> A Propos</a>
             <a href="contacte.php" class="btn-first b4"> Contactez Nous</a>
             <a href="avis.php" class="btn-first b5"> Avis</a>
@@ -70,6 +70,6 @@ session_start();
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="animation.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 </html>

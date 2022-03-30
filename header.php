@@ -28,7 +28,7 @@
                     <img id="logo"src="Images/THe.png" alt="" width="200px" height="100px">
                     <a href="index.php" type="button" class="btn btn-primary btn-lg">Accueil</a>
                     <a href="apropos.php" type="button" class="btn btn-outline-primary">A Propos</a>
-                    <a href="contactez.php" type="button" class="btn btn-outline-primary">Contactez Nous</a>
+                    <a href="contacte.php" type="button" class="btn btn-outline-primary">Contactez Nous</a>
                     <a href="avis.php" type="button" class="btn btn-outline-primary">Avis</a>
                     <a href="exp_et_re.php" type="button" class="btn btn-outline-primary">Expédition Et Retour</a>
                 </nav>
