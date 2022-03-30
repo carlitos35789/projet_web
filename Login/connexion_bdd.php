@@ -11,17 +11,12 @@
 // }
 // ?> -->
 <?php
-    // $servername = 'localhost';
-    // $username = 'root';
-    // $password = 'vanguardistes';
-    // $dbname = 'telephone';
-            
-     //On établit la connexion
-     $mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', 'vanguardistes');
-            
-    //On vérifie la connexion
-    // if($conn->connect_error){
-    //      die('Erreur : ' .$conn->connect_error);
-    // }
-    //  echo 'Connexion réussie';
-?>
+try
+{
+	$db = new PDO('mysql:host=localhost;dbname=my_recipes;charset=utf8', 'root', 'vanguardistes');
+}
+catch (Exception $e)
+{
+        die('Erreur : ' . $e->getMessage());
+}
+?>;
