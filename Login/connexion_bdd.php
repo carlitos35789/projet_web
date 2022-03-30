@@ -20,5 +20,8 @@
      $mysqli = new PDO('mysql:host=localhost;dbname=telephone;charset=utf8', 'root', 'vanguardistes');
             
     //On vérifie la connexion
-
+    // if($conn->connect_error){
+    //      die('Erreur : ' .$conn->connect_error);
+    // }
+    //  echo 'Connexion réussie';
 ?>
