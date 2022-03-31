@@ -137,3 +137,13 @@ h1 span {
     text-align: center;
     top: 130%;
 }
+
+.connexion {
+    position: absolute;
+    top: -86%;
+    left: 42%;
+    float: right;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #007BFF;
+}

@@ -72,6 +72,13 @@ CREATE TABLE `status` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE utilisateur
+(
+    id INT PRIMARY KEY NOT NULL,
+    name VARCHAR(100),
+    password VARCHAR(100),
+    email VARCHAR(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `telephone`;
 CREATE TABLE `telephone` (

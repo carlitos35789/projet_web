@@ -1,6 +1,7 @@
 const titreSpans = document.querySelectorAll('h1 span');
 const titreSpans2 = document.querySelectorAll('.text-carousel');
 const titreSpans3 = document.querySelectorAll('.step');
+const titreSpans4 = document.querySelectorAll('.connexion');
 const btns = document.querySelectorAll('.btn-first');
 const logo = document.querySelector('.logo');
 const medias = document.querySelectorAll('.bulle');
@@ -15,6 +16,7 @@ window.addEventListener('load', () => {
     .staggerFrom(titreSpans, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
     .staggerFrom(titreSpans2, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
     .staggerFrom(titreSpans3, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
+    .staggerFrom(titreSpans4, 1, {top: -50, opacity: 0, ease: "power2.out"}, 0.3)
     .staggerFrom(btns, 1, {opacity: 0, ease: "power2.out"}, 0.3, '-=1')
     .from(l1, 1, {width: 0, ease: "power2.out"}, '-=2')
     .from(l2, 1, {width: 0, ease: "power2.out"}, '-=2')

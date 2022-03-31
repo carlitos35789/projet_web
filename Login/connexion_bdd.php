@@ -13,7 +13,7 @@
 <?php
 try
 {
-	$db = new PDO('mysql:host=localhost;dbname=vanguardistes;charset=utf8', 'root','vanguardistes');
+	$mysqli = new PDO('mysql:host=localhost;dbname=vanguardistes;charset=utf8', 'root','vanguardistes');
 }
 catch (Exception $e)
 {
