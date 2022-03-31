@@ -54,7 +54,7 @@
                 <input type = "password" name = "password" class = "form-field" placeholder="Mot De Passe" required = "required">
             </div>
             <div class = "form">
-                <button type="submit" class="btn btn-black"> Connexion</button>
+                <button type="submit" class="btnSubmit"> Connexion</button>
                 <p class="btn btn-secondary"><a href="inscription.php">Inscription</a></p>
             </div>
         </form>

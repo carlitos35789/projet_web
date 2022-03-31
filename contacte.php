@@ -52,10 +52,6 @@ require('header.php');
                     <label for="message">Tapez votre message :</label>
                     <input type="text" id="message" name="message">
                 </div>
-                <div>
-                    <label for="pass">Mot de passe :</label>
-                    <input type="password" id="pass" name="pass">
-                </div>
                 <button class="btn btn-primary prev" type="button">Précédent</button>
                 <button class="btn btn-primary">Terminer</button>
             </div>

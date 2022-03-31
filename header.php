@@ -29,7 +29,6 @@
                     <a href="index.php" type="button" class="btn btn-primary btn-lg">Accueil</a>
                     <a href="apropos.php" type="button" class="btn btn-outline-primary">A Propos</a>
                     <a href="contacte.php" type="button" class="btn btn-outline-primary">Contactez Nous</a>
-                    <a href="avis.php" type="button" class="btn btn-outline-primary">Avis</a>
                     <a href="exp_et_re.php" type="button" class="btn btn-outline-primary">Expédition Et Retour</a>
                 </nav>
                 <nav class="connexion">
